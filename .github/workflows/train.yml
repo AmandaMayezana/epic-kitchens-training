@@ -36,7 +36,7 @@ jobs:
 
     - name: Train 3D CNN model
       run: |
-        python train_3dcnn.py --data ./data --epochs 3
+        python cnn3d_train.py --data ./data --epochs 3
         mv cnn3d_model.pt models/
 
     - name: Upload trained models
