@@ -30,7 +30,7 @@ jobs:
 
     - name: Train CNN-LSTM model
       run: |
-        python train_cnn_lstm.py --data ./data --epochs 3
+        python cnn_lstm_train.py --data ./data --epochs 3
         mkdir -p models
         mv cnn_lstm_model.pt models/
 
