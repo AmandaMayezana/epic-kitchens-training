@@ -66,7 +66,4 @@ if __name__ == "__main__":
     main()
 
 
-os.makedirs("models", exist_ok=True)
-torch.save(model.state_dict(), "models/cnn3d_model.pt")
-
 print("✅ 3D CNN training complete! Model saved at models/cnn3d_model.pt")
