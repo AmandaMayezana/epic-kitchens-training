@@ -19,6 +19,12 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+        
+      - name: Train CNN-LSTM model
+        run: python cnn_lstm_train.py
+
+      - name: Train 3D CNN model
+        run: python cnn3d_train.py
 
       - name: Run training
         run: python 222002793.py 
