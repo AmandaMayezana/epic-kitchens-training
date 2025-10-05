@@ -64,6 +64,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-print("✅ 3D CNN training complete! Model saved at models/cnn3d_model.pt")
